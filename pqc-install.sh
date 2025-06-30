@@ -183,7 +183,7 @@ run_cmd "service nginx start" "Starting NGINX"
 echo -e "${GREEN}Installation completed. Check $STATUS_FILE for details.${NC}"
 log_status "Installation completed"
 
-echo -e "${GREEN}NGINX is installed at /opt/sbin/nginx${NC}"
+echo -e "${GREEN}NGINX is installed at /opt/nginx${NC}"
 echo -e "${GREEN}OpenSSL is installed at /opt/bin/openssl${NC}"
 echo -e "${GREEN}To verify post-quantum TLS, open https://$ip/pqc-example.com/ in a browser that supports post-quantum key exchange${NC}"
 echo -e "${GREEN}Status log file: $STATUS_FILE${NC}"
