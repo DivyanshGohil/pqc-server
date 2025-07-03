@@ -32,5 +32,5 @@ sudo ./pqc-install.sh
 - OpenSSL is installed at **/opt/bin/openssl**
 - Status log file location: **/var/log/pqc_install_status.log**
 - To verify post-quantum TLS, open **https://{ip}/pqc-example.com/** in a browser that supports post-quantum key exchange. Verify it using wireshark
-- By Default we use **X25519MLKEM768** hybrid kex exchange.
+- By Default we use **X25519MLKEM768** hybrid key exchange.
 - To use openssl 3.5.0 version add **export PATH=/opt/bin:$PATH** line to **~/.bashrc** file
